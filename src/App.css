@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.react-grid-layout {
+  position: relative;
+  transition: height 200ms ease;
+}
+
+.reactGridItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 200ms ease;
+  transition-property: left, top;
+  background: rgba(0, 132, 255, 0.473);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.deleteButton {
+  position: absolute;
+  top: 0%;
+  left: 92%;
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
